@@ -20,4 +20,16 @@ print("I like to eat \(friutNames[1])")
 print("I like to eat \(friutNames[0])")
 
 
-//Assignment 4
+//Part 8, Start of Assignment #4
+
+var number :[integer_t] = [2,3,8,9,10]
+print(number)
+for myFavoritNumber in number{
+    print("My favorite number is", myFavoritNumber)
+}
+
+//Part 9
+let removed = number.remove(at: 2)
+for myFavoritNumber in number{
+    print(myFavoritNumber)
+}
